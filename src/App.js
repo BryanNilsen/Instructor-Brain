@@ -1,24 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import brain from "./images/brain.gif";
+import Card from "./components/Card";
 
 function App() {
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src={brain} alt="brain" className="logo" />
+      <h1 className="logo-header">Instructor Brain</h1>
+      <h2 className="tagline">(use your brain before you ask ours)</h2>
+      <Card
+        currentQuestion={currentQuestion}
+        setCurrentQuestion={setCurrentQuestion}
+      />
     </div>
   );
 }
