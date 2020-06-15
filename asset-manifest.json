@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/BryanNilsen/Instructor-Brain/static/css/main.66cc689a.chunk.css",
+    "main.js": "/BryanNilsen/Instructor-Brain/static/js/main.d83cd006.chunk.js",
+    "main.js.map": "/BryanNilsen/Instructor-Brain/static/js/main.d83cd006.chunk.js.map",
+    "runtime-main.js": "/BryanNilsen/Instructor-Brain/static/js/runtime-main.05be1cea.js",
+    "runtime-main.js.map": "/BryanNilsen/Instructor-Brain/static/js/runtime-main.05be1cea.js.map",
+    "static/js/2.6cb73936.chunk.js": "/BryanNilsen/Instructor-Brain/static/js/2.6cb73936.chunk.js",
+    "static/js/2.6cb73936.chunk.js.map": "/BryanNilsen/Instructor-Brain/static/js/2.6cb73936.chunk.js.map",
+    "index.html": "/BryanNilsen/Instructor-Brain/index.html",
+    "precache-manifest.a043f5fbb5f601419b196783a002d482.js": "/BryanNilsen/Instructor-Brain/precache-manifest.a043f5fbb5f601419b196783a002d482.js",
+    "service-worker.js": "/BryanNilsen/Instructor-Brain/service-worker.js",
+    "static/css/main.66cc689a.chunk.css.map": "/BryanNilsen/Instructor-Brain/static/css/main.66cc689a.chunk.css.map",
+    "static/js/2.6cb73936.chunk.js.LICENSE.txt": "/BryanNilsen/Instructor-Brain/static/js/2.6cb73936.chunk.js.LICENSE.txt",
+    "static/media/brain.gif": "/BryanNilsen/Instructor-Brain/static/media/brain.1d2f97b2.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05be1cea.js",
+    "static/js/2.6cb73936.chunk.js",
+    "static/css/main.66cc689a.chunk.css",
+    "static/js/main.d83cd006.chunk.js"
+  ]
+}
