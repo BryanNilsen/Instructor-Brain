@@ -4,6 +4,7 @@ import questions from "../questions";
 function Card(props) {
   const question = questions[props.currentQuestion];
 
+  // Change URL to match location of your instructor help project board
   const link = "https://github.com/orgs/nss-cohort-40/projects/1";
 
   return (

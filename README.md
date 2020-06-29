@@ -1,68 +1,69 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# How to Use this Repo:
 
-## Available Scripts
+## Clone this Repo
 
-In the project directory, you can run:
+From your terminal:
 
-### `npm start`
+1. Clone this repo: `git clone git@github.com:BryanNilsen/Instructor-Brain.git`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. Install dependencies: `npm install`
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+3. Remove path to this repository: `git remote rm origin`
 
-### `npm test`
+## Create a New Repo in Your GitHub Account
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+From your browser:
 
-### `npm run build`
+4. [Create your own repository on GitHub](https://help.github.com/en/github/getting-started-with-github/create-a-repo)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. After creating the repository, copy the repo URL ( _this example uses SSH_ )
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Push This Cloned Repo to Your New Repo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Back in your Terminal:
 
-### `npm run eject`
+6. Add the URL to your repo: `git remote add origin git@github.com:{your GH username}/{name of your repo}.git`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+7. Now you can push this cloned repo to the new repo you created under your username: `git push origin master`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+So far we have cloned this repo, created a new repo and pushed up our copy and you should see the code on GitHub. Now we have to make just a few changes in order for you to deploy it for your students to use.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Edit Files
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+8. Launch your favorite code editor from the Instructor-Brain root directory. This is where the package.json file lives
 
-## Learn More
+In your code editor:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+9. Open the package.json file and locate the line: `"homepage": "https://BryanNilsen.github.io/Instructor-Brain"`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+10. Replace `BryanNilsen` with your GitHub username and `Instructor-Brain` with the name of the new repo you just created so it looks like this:
+    `"homepage": "https://{Your-Username}.github.io/{Your-Repo}"`
 
-### Code Splitting
+11. Save the changes to package.json
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+The next step assumes you have a Github Project Board or alternative url for the students to access in order to sign up to receive help.
+If not, take some time to do that now.
 
-### Analyzing the Bundle Size
+Still in your code editor:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+12. Open Card.js from the `src > components` directory, and change the URL on line 8 to the location of your instructor help project board: `const link = "{your path here}`
 
-### Making a Progressive Web App
+13. Save the changes to Card.js
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## You're Doing Great - We're Almost Finished!
 
-### Advanced Configuration
+Back in your terminal:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+14. add your saved changes: `git add --all`
 
-### Deployment
+15. commit your changes: `git commit -m "{your commit message here}"`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+16. push your changes: `git push origin master`
 
-### `npm run build` fails to minify
+17. deploy your app: `npm deploy`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## That's it!!
+
+You should now be able to view your app online at the homepage path you provided above; i.e. `https://{Your-Username}.github.io/{Your-Repo}`
+
+_This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)._
