@@ -60,7 +60,7 @@ Back in your terminal:
 
 16. push your changes: `git push origin master`
 
-17. deploy your app: `npm deploy`
+17. deploy your app: `npm run deploy`
 
 ## That's it!!
 
