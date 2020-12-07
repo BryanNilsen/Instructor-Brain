@@ -5,7 +5,8 @@ function Card(props) {
   const question = questions[props.currentQuestion];
 
   // Change URL to match location of your instructor help project board
-  const link = "https://github.com/orgs/nss-cohort-40/projects/1";
+  const link =
+    "https://github.com/nss-day-cohort-44/CAPSTONE-INFORMATION/projects/1";
 
   return (
     <div className="card">
