@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Instructor-Brain/static/css/main.66cc689a.chunk.css",
-    "main.js": "/Instructor-Brain/static/js/main.ac0e1481.chunk.js",
-    "main.js.map": "/Instructor-Brain/static/js/main.ac0e1481.chunk.js.map",
+    "main.js": "/Instructor-Brain/static/js/main.d4f284b7.chunk.js",
+    "main.js.map": "/Instructor-Brain/static/js/main.d4f284b7.chunk.js.map",
     "runtime-main.js": "/Instructor-Brain/static/js/runtime-main.b6a9850b.js",
     "runtime-main.js.map": "/Instructor-Brain/static/js/runtime-main.b6a9850b.js.map",
     "static/js/2.6cb73936.chunk.js": "/Instructor-Brain/static/js/2.6cb73936.chunk.js",
     "static/js/2.6cb73936.chunk.js.map": "/Instructor-Brain/static/js/2.6cb73936.chunk.js.map",
     "index.html": "/Instructor-Brain/index.html",
-    "precache-manifest.ba5f4328ccc8c138eee2730914269b66.js": "/Instructor-Brain/precache-manifest.ba5f4328ccc8c138eee2730914269b66.js",
+    "precache-manifest.2e9227bd95b091168702b57a6824be6f.js": "/Instructor-Brain/precache-manifest.2e9227bd95b091168702b57a6824be6f.js",
     "service-worker.js": "/Instructor-Brain/service-worker.js",
     "static/css/main.66cc689a.chunk.css.map": "/Instructor-Brain/static/css/main.66cc689a.chunk.css.map",
     "static/js/2.6cb73936.chunk.js.LICENSE.txt": "/Instructor-Brain/static/js/2.6cb73936.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.b6a9850b.js",
     "static/js/2.6cb73936.chunk.js",
     "static/css/main.66cc689a.chunk.css",
-    "static/js/main.ac0e1481.chunk.js"
+    "static/js/main.d4f284b7.chunk.js"
   ]
 }
